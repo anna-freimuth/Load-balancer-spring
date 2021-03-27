@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class StressClientApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(StressClientApplication.class, args);
+        SpringApplication.run(StressClientApplication.class, args).close();
     }
 
 }
