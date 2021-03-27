@@ -22,7 +22,7 @@ public class ConnectionManager implements ApplicationRunner {
     @Override
     public void run(ApplicationArguments args) {
 
-        for (int i = 0; i < this.connectionNumber; i++) {
+        for (int i = 0; i < connectionNumber; i++) {
             connectionTask.connect();
         }
     }
